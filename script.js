@@ -41,7 +41,7 @@ let userRole = "Admin";
 function checkAccess(){
     let hasAccess = false;
     if(userRole === "Admin"){
-        let welcomeMsg = `${userName} you have admin access.`;
+        let welcomeMsg = `${fuserName} you have admin access.`;
         hasAccess = true;
         console.log(welcomeMsg);
     }
